@@ -1,0 +1,151 @@
+@import "responsive";
+@import "header";
+@import "listas";
+@import "filtros";
+@import "boxes";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h1 {
+    color:rgb(255, 255, 255);
+    background-image: linear-gradient(to right, orange, red);
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 500%;
+    
+
+}
+
+.derecha { 
+    text-align: right;
+    font-size: 80%;
+}
+
+
+ul {
+    font-size: 170%;
+    list-style: none;
+
+}
+
+ol{
+    list-style: none;
+}
+
+
+.headpad {
+    padding: 15px;
+}
+
+body{
+    background: url(pergamino.jpg) ;
+    background-size: 100%;
+    
+}
+
+
+
+.support{
+    background-color: bisque;
+    color: black;     
+    width: 750px;
+    position: absolute;
+    left: 700px;
+    top: 170px;
+    border-style: inset;
+    border-color: black;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 250%;
+
+
+    
+
+
+
+}
+
+
+
+.flex-padre{
+    font-family: 'Bebas Neue', cursive;
+    justify-content: space-around;
+    top: 400px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to right, orange, rgb(255, 111, 0));
+    padding: 10px;
+    border: 2px solid black;  
+
+    div{ 
+        background-image: linear-gradient(rgb(253, 255, 123),rgb(255, 174, 0));
+        color: rgb(0, 0, 0);
+        height: 40px;
+        width: 110px;
+        margin: 10px;
+        text-align: center;
+        line-height: normal;
+        font: 30px;
+        border: 2px solid black;
+        transition: all 500ms;
+    }
+}
+
+
+.flex-padre div:hover{
+
+    width: 120px;
+    height: 50px;
+
+}
+
+.grid-padre{
+    grid-template-rows: repeat(9, auto);
+    align-content: space-around;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 200%;
+    display: grid;
+    grid-template-columns: 400px 350px 700px;
+    grid-template-areas: 'header' ;
+    position: relative;
+    left: 100px;
+    top: 50px;
+
+    div{
+    background-color: rgb(199, 187, 158);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    }
+}
+
+
+.grid-filtros{
+display: grid;
+text-align: center;
+color: white;
+grid-template-columns: 100px 200px 200px 200px;
+grid-template-rows: auto auto auto auto;
+
+div{
+background-color: brown;
+text-align: center;
+color: white;
+border: 1px solid black;
+
+    }
+}
+
+.grad {
+
+    background-image: linear-gradient(orange , red)
+}
+
+
+
+

@@ -1,0 +1,31 @@
+.box1{
+    background-image: linear-gradient(orange, yellow);
+    width: 260px;
+    height: 380px;
+    position: relative;
+    left: 170px;
+    top: 30px;
+    font-family: 'Bebas Neue', cursive;
+    border-style: groove;
+    border-color: white;
+    line-height: 350%;
+    font-size: 110%;
+    transition: all 500ms;
+}
+
+.box1:hover {
+    font-size: 130%;
+    height: 440px;
+    width: 300px;
+
+}
+
+.box2{
+
+    width: 180px;
+    height: 200x;
+    position: absolute;
+    left: 500px;
+    top: 190px;
+
+}
